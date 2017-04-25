@@ -1131,11 +1131,16 @@ textArea.form-flat {
 .main-header:hover .header-content-fixed:after {
   background: rgba(255, 255, 255, 0.8);
 }
-.main-header .whoim {
+.main-header .akash {
   position: absolute;
   width: 100%;
   z-index: 3;
   top: 100px;
+}
+@media(max-width: 480px){
+ .main-header .akash {
+  top: 10%;
+} 
 }
 .main-header .name {
   font-size: 60px;
@@ -1145,11 +1150,7 @@ textArea.form-flat {
   z-index: 3;
   letter-spacing: 10px;
 }
-@media (max-width: 1030px) {
-  .main-header .name {
-    font-size: 3em;
-  }
-}
+
 .main-header .job {
   position: relative;
   display: inline-block;

@@ -1141,6 +1141,12 @@ textArea.form-flat {
  .main-header .akash {
   top: 10%;
 } 
+.box-line {
+    font-size: 24px;
+}
+.main-header .name {
+    font-size: 40px;
+}
 }
 .main-header .name {
   font-size: 60px;

@@ -1150,7 +1150,11 @@ textArea.form-flat {
   z-index: 3;
   letter-spacing: 10px;
 }
-
+@media (max-width: 1030px) {
+  .main-header .name {
+    font-size: 3em;
+  }
+}
 .main-header .job {
   position: relative;
   display: inline-block;

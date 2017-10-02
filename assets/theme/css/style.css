@@ -39,8 +39,8 @@ body {
 }
 body .wrapper {
   z-index: 2;
-  /*visibility: hidden;
-  opacity: 0.0;*/
+  visibility: hidden;
+  opacity: 0.0;
   position: relative;
 }
 /*============================

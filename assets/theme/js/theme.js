@@ -30,6 +30,13 @@
     }
   // });
 
+  $(document).ready(function(){
+    $('.preloader').hide('slow');
+    $('.wrapper').css('visibility', 'visible').animate({opacity: 1.0}, 2000, function() {
+      initCheckNav();
+    });
+  });
+
   //Run function When WIndow Resize
   $(window).resize(function() {
     initParallax();
